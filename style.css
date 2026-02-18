@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(/images/larch_mountain_sunset-3840x2160.jpg);
+  background-image: url("https://dev-naresh608.github.io/login-form-one/images/larch_mountain_sunset-3840x2160.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
