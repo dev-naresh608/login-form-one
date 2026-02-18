@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: rgb(255, 255, 255);
+  font-family: "Popins";
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/images/larch_mountain_sunset-3840x2160.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: lightslategray;
+  width: 350px;
+  background: transparent;
+  padding: 3% 3%;
+  backdrop-filter: blur(3px);
+  /* box-shadow: 0 0 20px 10px rgba(195, 195, 195, 0.5); */
+  box-shadow: 5px 5px 20px 5px rgba(195,195,195, 0.5);
+}
+
+.container h1 {
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 5px 5px 6px;
+  padding-bottom: 10%;
+}
+input[type="text"], input[type="email"], input[type="password"]{
+  height: 30px;
+  width: 90%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding-left: 4%;
+  padding-inline-start: 7px;
+  padding-inline-end: 6px;
+  
+}
+input::placeholder {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.input-box {
+  border: 1.5px solid white;
+  padding-right: 5px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.reminder {
+  display: flex;
+  justify-content: space-between;
+}
+.reminder input[type="checkbox"] {
+  accent-color: red;
+  height: 15px;
+  width: 15px;
+}
+.reminder span {
+  display: flex;
+  gap: 5px;
+}
+.reminder a {
+  text-decoration: none;
+}
+
+.login-btn {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  border: none;
+  border-radius: 50px;
+  padding: 2%;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.login-btn:hover {
+  background-color: rgba(100, 94, 94, 0.5);
+}
+.register-line {
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: end;
+  font-weight: 100;
+  font-size: 12px;
+  gap:5px;
+}
+
+.register-line a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
